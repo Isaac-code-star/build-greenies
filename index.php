@@ -148,7 +148,7 @@
 <a href="index.php?PageName=sign-in" class="nav-link">Sign In</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=sign-up" class="nav-link">Sign Up</a>
+<a href="include/sign-up.inc.php" class="nav-link">Sign Up</a>
 </li>
 </ul>
 </li>
@@ -724,32 +724,32 @@ Donate
 </div>
 
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 
-<script src="assets/js/form-validator.min.js"></script>
+<script src="../assets/js/form-validator.min.js"></script>
 
-<script src="assets/js/contact-form-script.js"></script>
+<script src="../assets/js/contact-form-script.js"></script>
 
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="../assets/js/jquery.ajaxchimp.min.js"></script>
 
-<script src="assets/js/jquery.meanmenu.js"></script>
+<script src="../assets/js/jquery.meanmenu.js"></script>
 
-<script src="assets/js/jquery-modal-video.min.js"></script>
+<script src="../assets/js/jquery-modal-video.min.js"></script>
 
-<script src="assets/js/wow.min.js"></script>
+<script src="../assets/js/wow.min.js"></script>
 
-<script src="assets/js/lightbox.min.js"></script>
+<script src="../assets/js/lightbox.min.js"></script>
 
-<script src="assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
 
-<script src="assets/js/odometer.min.js"></script>
-<script src="assets/js/jquery.appear.min.js"></script>
+<script src="../assets/js/odometer.min.js"></script>
+<script src="../assets/js/jquery.appear.min.js"></script>
 
-<script src="assets/js/jquery.nice-select.min.js"></script>
+<script src="../assets/js/jquery.nice-select.min.js"></script>
 
-<script src="assets/js/custom.js"></script>
+<script src="../assets/js/custom.js"></script>
 </body>
 
 <!-- Mirrored from templates.hibootstrap.com/findo/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 May 2021 08:56:48 GMT -->

@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="loader">
 <div class="d-table">
@@ -100,3 +102,6 @@ Connect with Google
 <i class="icofont-arrow-up"></i>
 </div>
 
+<?php
+    include_once "footer.inc.php";
+?>
