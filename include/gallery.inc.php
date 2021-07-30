@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-nine">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>Gallery</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>Gallery</span>
@@ -26,48 +28,48 @@
 <div class="row">
 <div class="col-sm-6 col-lg-4">
 <div class="gallery-item">
-<a href="assets/img/gallery/gallery1.jpg" data-lightbox="roadtrip">
-<img src="assets/img/gallery/gallery1.jpg" alt="Gallery">
+<a href="../assets/img/gallery1.jpg" data-lightbox="roadtrip">
+<img src="../assets/img/gallery1.jpg" alt="Gallery">
 <i class="icofont-eye"></i>
 </a>
 </div>
 </div>
 <div class="col-sm-6 col-lg-4">
 <div class="gallery-item">
-<a href="assets/img/gallery/gallery2.jpg" data-lightbox="roadtrip">
-<img src="assets/img/gallery/gallery2.jpg" alt="Gallery">
+<a href="../assets/img/gallery2.jpg" data-lightbox="roadtrip">
+<img src="../assets/img/gallery2.jpg" alt="Gallery">
 <i class="icofont-eye"></i>
 </a>
 </div>
 </div>
 <div class="col-sm-6 col-lg-4">
 <div class="gallery-item">
-<a href="assets/img/gallery/gallery3.jpg" data-lightbox="roadtrip">
-<img src="assets/img/gallery/gallery3.jpg" alt="Gallery">
+<a href="../assets/img/gallery3.jpg" data-lightbox="roadtrip">
+<img src="../assets/img/gallery3.jpg" alt="Gallery">
 <i class="icofont-eye"></i>
 </a>
 </div>
 </div>
 <div class="col-sm-6 col-lg-4">
 <div class="gallery-item">
-<a href="assets/img/gallery/gallery4.jpg" data-lightbox="roadtrip">
-<img src="assets/img/gallery/gallery4.jpg" alt="Gallery">
+<a href="../assets/img/gallery4.jpg" data-lightbox="roadtrip">
+<img src="../assets/img/gallery4.jpg" alt="Gallery">
 <i class="icofont-eye"></i>
 </a>
 </div>
 </div>
 <div class="col-sm-6 col-lg-4">
 <div class="gallery-item">
-<a href="assets/img/gallery/gallery5.jpg" data-lightbox="roadtrip">
-<img src="assets/img/gallery/gallery5.jpg" alt="Gallery">
+<a href="../assets/img/gallery5.jpg" data-lightbox="roadtrip">
+<img src="../assets/img/gallery5.jpg" alt="Gallery">
 <i class="icofont-eye"></i>
 </a>
 </div>
 </div>
 <div class="col-sm-6 col-lg-4">
 <div class="gallery-item">
-<a href="assets/img/gallery/gallery6.jpg" data-lightbox="roadtrip">
-<img src="assets/img/gallery/gallery6.jpg" alt="Gallery">
+<a href="../assets/img/gallery6.jpg" data-lightbox="roadtrip">
+<img src="../assets/img/gallery6.jpg" alt="Gallery">
 <i class="icofont-eye"></i>
 </a>
 </div>
@@ -95,4 +97,6 @@
 </div>
 </div>
 
-
+<?php
+    include_once "footer.inc.php";
+?>
