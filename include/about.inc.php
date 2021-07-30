@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-one">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>About</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>About</span>
@@ -26,7 +28,7 @@
 <div class="row align-items-center">
 <div class="col-lg-6">
 <div class="about-img">
-<img src="assets/img/about/4.jpg" alt="About">
+<img src="../assets/img/4.jpg" alt="About">
 </div>
 </div>
 <div class="col-lg-6">
@@ -134,8 +136,8 @@ Successful projects are known to face challenges and this project was no excepti
 <div class="row align-items-center">
 <div class="col-lg-6">
 <div class="benefit-img">
- <img src="assets/img/benefit-main1.jpg" alt="Benefit">
-<img src="assets/img/benefit-shape1.png" alt="Benefit">
+ <img src="../assets/img/benefit-main1.jpg" alt="Benefit">
+<img src="../assets/img/benefit-shape1.png" alt="Benefit">
 <div class="video-wrap">
 <button class="js-modal-btn" data-video-id="uemObN8_dcw">
 <i class="icofont-ui-play"></i>
@@ -168,7 +170,7 @@ Successful projects are known to face challenges and this project was no excepti
 <div class="col-sm-6 col-lg-4">
 <div class="team-item">
 <div class="top">
-<img src="assets/img/team/team1.jpg" alt="Team">
+<img src="../assets/img/team/team1.jpg" alt="Team">
 <ul>
 <li>
 <a href="#" target="_blank">
@@ -201,7 +203,7 @@ Successful projects are known to face challenges and this project was no excepti
 <div class="col-sm-6 col-lg-4">
 <div class="team-item">
 <div class="top">
-<img src="assets/img/team/team2.jpg" alt="Team">
+<img src="../assets/img/team/team2.jpg" alt="Team">
 <ul>
 <li>
 <a href="#" target="_blank">
@@ -234,7 +236,7 @@ Successful projects are known to face challenges and this project was no excepti
 <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
 <div class="team-item">
 <div class="top">
-<img src="assets/img/team/team3.jpg" alt="Team">
+<img src="../assets/img/team/team3.jpg" alt="Team">
 <ul>
 <li>
 <a href="#" target="_blank">
@@ -267,7 +269,7 @@ Successful projects are known to face challenges and this project was no excepti
 <div class="col-sm-6 col-lg-4">
     <div class="team-item">
     <div class="top">
-    <img src="assets/img/team/team1.jpg" alt="Team">
+    <img src="../assets/img/team/team1.jpg" alt="Team">
     <ul>
     <li>
     <a href="#" target="_blank">
@@ -300,7 +302,7 @@ Successful projects are known to face challenges and this project was no excepti
     <div class="col-sm-6 col-lg-4">
         <div class="team-item">
         <div class="top">
-        <img src="assets/img/team/team1.jpg" alt="Team">
+        <img src="../assets/img/team/team1.jpg" alt="Team">
         <ul>
         <li>
         <a href="#" target="_blank">
@@ -333,7 +335,7 @@ Successful projects are known to face challenges and this project was no excepti
         <div class="col-sm-6 col-lg-4">
             <div class="team-item">
             <div class="top">
-            <img src="assets/img/team/team1.jpg" alt="Team">
+            <img src="../assets/img/team/team1.jpg" alt="Team">
             <ul>
             <li>
             <a href="#" target="_blank">
@@ -367,6 +369,9 @@ Successful projects are known to face challenges and this project was no excepti
 </div>
 </section>
 
+<?php
+    include_once "footer.inc.php";
+?>
 
 
 

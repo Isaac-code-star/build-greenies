@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="loader">
 <div class="d-table">
@@ -16,7 +18,7 @@
 <div class="row m-0">
 <div class="col-lg-6 p-0">
 <div class="user-img">
-<img src="assets/img/user-form-bg.jpg" alt="User">
+<img src="../assets/img/user-form-bg.jpg" alt="User">
 </div>
 </div>
 <div class="col-lg-6 p-0">
@@ -26,7 +28,7 @@
 <div class="user-content-inner">
 <div class="top">
 <a href="index.html">
-<img src="assets/img/logo-two.jpeg" alt="Logo">
+<img src="../assets/img/logo-two.jpeg" alt="Logo">
 </a>
 <h2>Sign In</h2>
 </div>
@@ -48,7 +50,7 @@
  </div>
 </form>
 <div class="bottom">
-<p>Didn't create account? <a href="sign-up.html">Sign Up</a></p>
+<p>Didn't create account? <a href="sign-up.inc.php">Sign Up</a></p>
 </div>
 </div>
 </div>
@@ -65,4 +67,6 @@
 <i class="icofont-arrow-up"></i>
 </div>
 
-
+<?php
+    include_once "footer.inc.php";
+?>

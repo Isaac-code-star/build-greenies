@@ -18,7 +18,7 @@
 <div class="row m-0">
 <div class="col-lg-6 p-0">
 <div class="user-img">
-<img src="assets/img/user-form-bg.jpg" alt="User">
+<img src="../assets/img/user-form-bg.jpg" alt="User">
 </div>
 </div>
 <div class="col-lg-6 p-0">
@@ -28,7 +28,7 @@
 <div class="user-content-inner">
 <div class="top">
 <a href="index.html">
-<img src="assets/img/logo-two.jpeg" alt="Logo">
+<img src="../assets/img/logo-two.jpeg" alt="Logo">
 </a>
 <h2>Sign Up</h2>
 </div>
@@ -70,7 +70,7 @@
 </div>
 </form>
 <div class="bottom">
-<p>Already created account? <a href="sign-in.html">Sign In</a></p>
+<p>Already created account? <a href="sign-in.inc.php">Sign In</a></p>
 <h4>OR</h4>
 <ul>
 <li>

@@ -122,8 +122,8 @@
 <div class="navbar-area sticky-top">
 
 <div class="mobile-nav">
-<a href="index.html" class="logo">
-<img src="assets/img/logo-two.jpg" alt="Logo">
+<a href="index.php" class="logo">
+<img src="../assets/img/logo-two.jpeg" alt="Logo" style="height: 2.5rem;">
 </a>
 </div>
 
@@ -131,12 +131,12 @@
 <div class="container">
 <nav class="navbar navbar-expand-md navbar-light">
 <a class="navbar-brand" href="index.html">
-<img src="../assets/img/logo-two.jpeg" alt="Logo">
+<img src="../assets/img/logo-two.jpeg" alt="Logo" href="../index.php">
 </a>
 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 <ul class="navbar-nav">
 <li class="nav-item">
-<a href="">Home</a>
+<a href="../index.php">Home</a>
 </li>
 <li class="nav-item">
 <a href="#" class="nav-link dropdown-toggle">Pages <i class="icofont-simple-down"></i></a>
@@ -145,7 +145,7 @@
 <a href="#" class="nav-link dropdown-toggle">Volunteer<i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="index.php?PageName=sign-in" class="nav-link">Sign In</a>
+<a href="include/sign-in.inc.php" class="nav-link">Sign In</a>
 </li>
 <li class="nav-item">
 <a href="include/sign-up.inc.php" class="nav-link">Sign Up</a>
@@ -153,39 +153,39 @@
 </ul>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=gallery" class="nav-link">Gallery</a>
+<a href="include/gallery.inc.php" class="nav-link">Gallery</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=testimonials" class="nav-link">Testimonials</a>
+<a href="include/testimonials.inc.php" class="nav-link">Testimonials</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=team" class="nav-link">Team</a>
+<a href="include/team.inc.php" class="nav-link">Team</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=faq" class="nav-link">FAQ</a>
+<a href="include/faq.inc.php" class="nav-link">FAQ</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=coming-soon" class="nav-link">Coming Soon</a>
+<a href="include/coming-soon.inc.php" class="nav-link">Coming Soon</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=privacy-policy" class="nav-link">Privacy Policy</a>
+<a href="include/privacy-policy.inc.php" class="nav-link">Privacy Policy</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=terms-conditions" class="nav-link">Terms & Conditions</a>
+<a href="include/terms-conditions.inc.php" class="nav-link">Terms & Conditions</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=about" class="nav-link">About</a>
+<a href="include/about.inc.php" class="nav-link">About</a>
 </li>
 <li class="nav-item">
 <a href="#" class="nav-link dropdown-toggle">Donations <i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="index.php?PageName=donations" class="nav-link">Donations</a>
+<a href="include/donations.inc.php" class="nav-link">Donations</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=donation-details" class="nav-link">Donation Details</a>
+<a href="include/donation-details.inc.php" class="nav-link">Donation Details</a>
 </li>
 </ul>
 </li>
@@ -193,10 +193,10 @@
 <a href="#" class="nav-link dropdown-toggle">Events <i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="index.php?PageName=events" class="nav-link">Events</a>
+<a href="include/events.inc.php" class="nav-link">Events</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=event-details" class="nav-link">Event Details</a>
+<a href="include/event-details.inc.php" class="nav-link">Event Details</a>
 </li>
 </ul>
 </li>
@@ -204,15 +204,15 @@
 <a href="#" class="nav-link dropdown-toggle">Blog <i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="index.php?PageName=blog" class="nav-link">Blog</a>
+<a href="include/blog.inc.php" class="nav-link">Blog</a>
 </li>
 <li class="nav-item">
- <a href="index.php?PageName=blog-details" class="nav-link">Blog Details</a>
+ <a href="include/blog-details.inc.php" class="nav-link">Blog Details</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=contact" class="nav-link">Contact</a>
+<a href="include/contact.inc.php" class="nav-link">Contact</a>
 </li>
 </ul>
 <div class="side-nav">

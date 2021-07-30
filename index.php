@@ -123,7 +123,7 @@
 
 <div class="mobile-nav">
 <a href="index.html" class="logo">
-<img src="assets/img/logo-two.jpg" alt="Logo">
+<img src="assets/img/logo-two.jpeg" alt="Logo" style="height: 2.5rem;">
 </a>
 </div>
 
@@ -145,7 +145,7 @@
 <a href="#" class="nav-link dropdown-toggle">Volunteer<i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="index.php?PageName=sign-in" class="nav-link">Sign In</a>
+<a href="include/sign-in.inc.php" class="nav-link">Sign In</a>
 </li>
 <li class="nav-item">
 <a href="include/sign-up.inc.php" class="nav-link">Sign Up</a>
@@ -153,39 +153,39 @@
 </ul>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=gallery" class="nav-link">Gallery</a>
+<a href="include/gallery.inc.php" class="nav-link">Gallery</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=testimonials" class="nav-link">Testimonials</a>
+<a href="include/testimonials.inc.php" class="nav-link">Testimonials</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=team" class="nav-link">Team</a>
+<a href="include/team.inc.php" class="nav-link">Team</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=faq" class="nav-link">FAQ</a>
+<a href="include/faq.inc.php" class="nav-link">FAQ</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=coming-soon" class="nav-link">Coming Soon</a>
+<a href="include/coming-soon.inc.php" class="nav-link">Coming Soon</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=privacy-policy" class="nav-link">Privacy Policy</a>
+<a href="include/privacy-policy.inc.php" class="nav-link">Privacy Policy</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=terms-conditions" class="nav-link">Terms & Conditions</a>
+<a href="include/terms-conditions.inc.php" class="nav-link">Terms & Conditions</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=about" class="nav-link">About</a>
+<a href="include/about.inc.php" class="nav-link">About</a>
 </li>
 <li class="nav-item">
 <a href="#" class="nav-link dropdown-toggle">Donations <i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="index.php?PageName=donations" class="nav-link">Donations</a>
+<a href="include/donations.inc.php" class="nav-link">Donations</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=donation-details" class="nav-link">Donation Details</a>
+<a href="include/donation-details.inc.php" class="nav-link">Donation Details</a>
 </li>
 </ul>
 </li>
@@ -193,10 +193,10 @@
 <a href="#" class="nav-link dropdown-toggle">Events <i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="index.php?PageName=events" class="nav-link">Events</a>
+<a href="include/events.inc.php" class="nav-link">Events</a>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=event-details" class="nav-link">Event Details</a>
+<a href="include/event-details.inc.php" class="nav-link">Event Details</a>
 </li>
 </ul>
 </li>
@@ -204,15 +204,15 @@
 <a href="#" class="nav-link dropdown-toggle">Blog <i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="index.php?PageName=blog" class="nav-link">Blog</a>
+<a href="include/blog.inc.php" class="nav-link">Blog</a>
 </li>
 <li class="nav-item">
- <a href="index.php?PageName=blog-details" class="nav-link">Blog Details</a>
+ <a href="include/blog-details.inc.php" class="nav-link">Blog Details</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="index.php?PageName=contact" class="nav-link">Contact</a>
+<a href="include/contact.inc.php" class="nav-link">Contact</a>
 </li>
 </ul>
 <div class="side-nav">
@@ -724,32 +724,32 @@ Donate
 </div>
 
 
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/js/popper.min.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 
-<script src="../assets/js/form-validator.min.js"></script>
+<script src="assets/js/form-validator.min.js"></script>
 
-<script src="../assets/js/contact-form-script.js"></script>
+<script src="assets/js/contact-form-script.js"></script>
 
-<script src="../assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
 
-<script src="../assets/js/jquery.meanmenu.js"></script>
+<script src="assets/js/jquery.meanmenu.js"></script>
 
-<script src="../assets/js/jquery-modal-video.min.js"></script>
+<script src="assets/js/jquery-modal-video.min.js"></script>
 
-<script src="../assets/js/wow.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
 
-<script src="../assets/js/lightbox.min.js"></script>
+<script src="assets/js/lightbox.min.js"></script>
 
-<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
 
-<script src="../assets/js/odometer.min.js"></script>
-<script src="../assets/js/jquery.appear.min.js"></script>
+<script src="assets/js/odometer.min.js"></script>
+<script src="assets/js/jquery.appear.min.js"></script>
 
-<script src="../assets/js/jquery.nice-select.min.js"></script>
+<script src="assets/js/jquery.nice-select.min.js"></script>
 
-<script src="../assets/js/custom.js"></script>
+<script src="assets/js/custom.js"></script>
 </body>
 
 <!-- Mirrored from templates.hibootstrap.com/findo/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 May 2021 08:56:48 GMT -->
