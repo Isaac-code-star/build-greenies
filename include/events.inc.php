@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-four">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>Events</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>Events</span>
@@ -26,7 +28,7 @@
 <div class="row">
 <div class="col-lg-6">
 <div class="event-item">
-<img src="assets/img/event/event1.jpg" alt="Event">
+<img src="../assets/img/event1.jpg" alt="Event">
 <div class="inner">
 <h4>04 <span>Jan</span></h4>
 <h3>
@@ -47,7 +49,7 @@
 </div>
 <div class="col-lg-6">
 <div class="event-item">
-<img src="assets/img/event/event2.jpg" alt="Event">
+<img src="../assets/img/event2.jpg" alt="Event">
 <div class="inner">
 <h4>05 <span>Jan</span></h4>
 <h3>
@@ -68,7 +70,7 @@
 </div>
 <div class="col-lg-6">
 <div class="event-item">
-<img src="assets/img/event/event3.jpg" alt="Event">
+<img src="../assets/img/event3.jpg" alt="Event">
 <div class="inner">
 <h4>06 <span>Jan</span></h4>
 <h3>
@@ -89,7 +91,7 @@
 </div>
 <div class="col-lg-6">
 <div class="event-item">
-<img src="assets/img/event/event4.jpg" alt="Event">
+<img src="../assets/img/event4.jpg" alt="Event">
 <div class="inner">
 <h4>07 <span>Jan</span></h4>
 <h3>
@@ -110,7 +112,7 @@
 </div>
 <div class="col-lg-6">
 <div class="event-item">
-<img src="assets/img/event/event5.jpg" alt="Event">
+<img src="../assets/img/event5.jpg" alt="Event">
 <div class="inner">
 <h4>08 <span>Jan</span></h4>
 <h3>
@@ -131,7 +133,7 @@
 </div>
 <div class="col-lg-6">
 <div class="event-item">
-<img src="assets/img/event/event6.jpg" alt="Event">
+<img src="../assets/img/event6.jpg" alt="Event">
 <div class="inner">
 <h4>09 <span>Jan</span></h4>
 <h3>
@@ -174,3 +176,6 @@
 </section>
 
 
+<?php
+    include_once "footer.inc.php";
+?>

@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-twelve">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>FAQ</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>FAQ</span>
@@ -26,7 +28,7 @@
 <div class="row align-items-center">
 <div class="col-lg-6">
 <div class="faq-img">
-<img src="assets/img/faq-main.jpg" alt="FAQ">
+<img src="../assets/img/faq-main.jpg" alt="FAQ">
 </div>
 </div>
 <div class="col-lg-6">
@@ -69,4 +71,6 @@ From where should I start to help people?
 </div>
 </div>
 
-
+<?php
+    include_once "footer.inc.php";
+?>

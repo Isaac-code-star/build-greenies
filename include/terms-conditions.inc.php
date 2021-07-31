@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php"
+?>
 
 <div class="page-title-area title-bg-thirteen">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>Terms & Conditions</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>Terms & Conditions</span>
@@ -45,5 +47,6 @@
 </div>
 
 
-
-<
+<?php
+    include_once "footer.inc.php";
+?>

@@ -1,4 +1,6 @@
-
+<?php 
+    include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-two">
 <div class="d-table">
@@ -27,7 +29,7 @@
 <div class="col-sm-6 col-lg-4">
 <div class="donation-item">
 <div class="img">
-<img src="assets/img/donation/donation1.jpg" alt="Donation">
+<img src="../assets/img/donation1.jpg" alt="Donation">
 <a class="common-btn" href="donation-details.html">Donate Now</a>
 </div>
 <div class="inner">
@@ -56,7 +58,7 @@
 <div class="col-sm-6 col-lg-4">
 <div class="donation-item">
 <div class="img">
-<img src="assets/img/donation/donation2.jpg" alt="Donation">
+<img src="../assets/img/donation2.jpg" alt="Donation">
 <a class="common-btn" href="donation-details.html">Donate Now</a>
 </div>
 <div class="inner">
@@ -85,7 +87,7 @@
 <div class="col-sm-6 col-lg-4">
 <div class="donation-item">
 <div class="img">
-<img src="assets/img/donation/donation3.jpg" alt="Donation">
+<img src="../assets/img/donation3.jpg" alt="Donation">
 <a class="common-btn" href="donation-details.html">Donate Now</a>
 </div>
 <div class="inner">
@@ -114,7 +116,7 @@
 <div class="col-sm-6 col-lg-4">
 <div class="donation-item">
 <div class="img">
-<img src="assets/img/donation/donation4.jpg" alt="Donation">
+<img src="../assets/img/donation4.jpg" alt="Donation">
 <a class="common-btn" href="donation-details.html">Donate Now</a>
 </div>
 <div class="inner">
@@ -143,7 +145,7 @@
 <div class="col-sm-6 col-lg-4">
 <div class="donation-item">
 <div class="img">
-<img src="assets/img/donation/donation5.jpg" alt="Donation">
+<img src="../assets/img/donation5.jpg" alt="Donation">
 <a class="common-btn" href="donation-details.html">Donate Now</a>
 </div>
 <div class="inner">
@@ -172,7 +174,7 @@
 <div class="col-sm-6 col-lg-4">
 <div class="donation-item">
 <div class="img">
-<img src="assets/img/donation/donation6.jpg" alt="Donation">
+<img src="../assets/img/donation6.jpg" alt="Donation">
 <a class="common-btn" href="donation-details.html">Donate Now</a>
 </div>
 <div class="inner">
@@ -221,4 +223,6 @@
 </div>
 </section>
 
-
+<?php
+    include_once "footer.inc.php";
+?>

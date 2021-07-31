@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-six">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>Blog</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>Blog</span>
@@ -28,7 +30,7 @@
 <div class="blog-item">
 <div class="top">
 <a href="blog-details.html">
-<img src="assets/img/blog/blog1.jpg" alt="Blog">
+<img src="../assets/img/blog1.jpg" alt="Blog">
 </a>
 </div>
 <div class="bottom">
@@ -55,7 +57,7 @@
 <div class="blog-item">
 <div class="top">
 <a href="blog-details.html">
- <img src="assets/img/blog/blog2.jpg" alt="Blog">
+ <img src="../assets/img/blog2.jpg" alt="Blog">
 </a>
 </div>
 <div class="bottom">
@@ -82,7 +84,7 @@
 <div class="blog-item">
 <div class="top">
 <a href="blog-details.html">
-<img src="assets/img/blog/blog3.jpg" alt="Blog">
+<img src="../assets/img/blog3.jpg" alt="Blog">
 </a>
 </div>
 <div class="bottom">
@@ -109,7 +111,7 @@
 <div class="blog-item">
 <div class="top">
 <a href="blog-details.html">
-<img src="assets/img/blog/blog4.jpg" alt="Blog">
+<img src="../assets/img/blog4.jpg" alt="Blog">
 </a>
 </div>
 <div class="bottom">
@@ -136,7 +138,7 @@
 <div class="blog-item">
 <div class="top">
 <a href="blog-details.html">
-<img src="assets/img/blog/blog5.jpg" alt="Blog">
+<img src="../assets/img/blog5.jpg" alt="Blog">
 </a>
 </div>
 <div class="bottom">
@@ -163,7 +165,7 @@
 <div class="blog-item">
 <div class="top">
 <a href="blog-details.html">
-<img src="assets/img/blog/blog6.jpg" alt="Blog">
+<img src="../assets/img/blog6.jpg" alt="Blog">
 </a>
 </div>
 <div class="bottom">
@@ -209,4 +211,7 @@
 </div>
 </section>
 
+<?php
+    include_once "footer.inc.php";
+?>
 

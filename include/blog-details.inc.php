@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-seven">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>Blog Details</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>Blog Details</span>
@@ -27,7 +29,7 @@
 <div class="col-lg-8">
 <div class="details-item">
 <div class="details-img">
-<img src="assets/img/blog/blog-details-main.jpg" alt="Details">
+<img src="../assets/img/blog-details-main.jpg" alt="Details">
 <ul>
 <li>
 <i class="icofont-calendar"></i>
@@ -44,7 +46,7 @@ By - <a href="#">Admin</a>
 <div class="img">
 <div class="row align-items-center">
 <div class="col-4 col-sm-4 col-lg-4">
-<img src="assets/img/blog/blog-details5.jpg" alt="Details">
+<img src="../assets/img/blog-details5.jpg" alt="Details">
 </div>
 <div class="col-8 col-sm-8 col-lg-8">
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam repellat quo saepe inventore quisquam voluptatum dignissimos quae quam magnam nesciunt ut recusandae accusantium doloribus, quos dicta? Nobis, provident. Corporis, ipsam.</p>
@@ -59,10 +61,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 <div class="img-area">
 <div class="row">
 <div class="col-sm-6 col-lg-6">
-<img src="assets/img/blog/blog1.jpg" alt="Details">
+<img src="../assets/img/blog1.jpg" alt="Details">
 </div>
 <div class="col-sm-6 col-lg-6">
-<img src="assets/img/blog/blog2.jpg" alt="Details">
+<img src="../assets/img/blog2.jpg" alt="Details">
 </div>
 </div>
 </div>
@@ -122,14 +124,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 <h3>Comments (02)</h3>
 <ul>
 <li>
-<img src="assets/img/blog/blog-comment1.jpg" alt="Details">
+<img src="../assets/img/blog-comment1.jpg" alt="Details">
 <h4>Marcel Proust</h4>
 <span>04 July, 2020</span>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, saepe veniam id quo repellat consectetur architecto iste eius, voluptas ad velit atque. Voluptate quas labore sapiente praesentium, autem ullam esse.</p>
 <a href="#">Reply</a>
 </li>
 <li>
-<img src="assets/img/blog/blog-comment2.jpg" alt="Details">
+<img src="../assets/img/blog-comment2.jpg" alt="Details">
 <h4>Jac Jacson</h4>
 <span>05 July, 2020</span>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, saepe veniam id quo repellat consectetur architecto iste eius, voluptas ad velit atque. Voluptate quas labore sapiente.</p>
@@ -184,7 +186,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 </form>
 </div>
 <div class="admin widget-item">
-<img src="assets/img/blog/admin.jpg" alt="Admin">
+<img src="../assets/img/admin.jpg" alt="Admin">
 <h4>Tom Henry</h4>
 <span>Admin</span>
 <ul>
@@ -215,7 +217,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 <div class="post-inner">
 <ul class="align-items-center">
 <li>
-<img src="assets/img/blog/blog-details1.jpg" alt="Details">
+<img src="../assets/img/blog-details1.jpg" alt="Details">
 </li>
 <li>
 <h4>
@@ -228,7 +230,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 <div class="post-inner">
 <ul class="align-items-center">
 <li>
-<img src="assets/img/blog/blog-details2.jpg" alt="Details">
+<img src="../assets/img/blog-details2.jpg" alt="Details">
 </li>
 <li>
 <h4>
@@ -241,7 +243,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 <div class="post-inner">
 <ul class="align-items-center">
 <li>
-<img src="assets/img/blog/blog-details3.jpg" alt="Details">
+<img src="../assets/img/blog-details3.jpg" alt="Details">
 </li>
 <li>
 <h4>
@@ -254,7 +256,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 <div class="post-inner">
 <ul class="align-items-center">
 <li>
-<img src="assets/img/blog/blog-details4.jpg" alt="Details">
+<img src="../assets/img/blog-details4.jpg" alt="Details">
 </li>
 <li>
 <h4>
@@ -290,7 +292,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 <div class="row m-0">
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
-<img src="assets/img/blog/instagram1.jpg" alt="Instagram">
+<img src="../assets/img/instagram1.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -298,7 +300,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 </div>
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
-<img src="assets/img/blog/instagram2.jpg" alt="Instagram">
+<img src="../assets/img/instagram2.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -306,7 +308,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 </div>
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
- <img src="assets/img/blog/instagram3.jpg" alt="Instagram">
+ <img src="../assets/img/instagram3.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -314,7 +316,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 </div>
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
-<img src="assets/img/blog/instagram4.jpg" alt="Instagram">
+<img src="../assets/img/instagram4.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -322,7 +324,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 </div>
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
-<img src="assets/img/blog/instagram5.jpg" alt="Instagram">
+<img src="../assets/img/instagram5.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -330,7 +332,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 </div>
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
-<img src="assets/img/blog/instagram6.jpg" alt="Instagram">
+<img src="../assets/img/instagram6.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -344,4 +346,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do this eiusmod te
 </div>
 </div>
 
-
+<?php
+    include_once "footer.inc.php";
+?>

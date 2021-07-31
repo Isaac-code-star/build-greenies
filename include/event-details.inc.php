@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-five">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>Event Details</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>Event Details</span>
@@ -27,7 +29,7 @@
 <div class="col-lg-8">
 <div class="details-item">
 <div class="details-img">
-<img src="assets/img/event/event-details1.jpg" alt="Details">
+<img src="../assets/img/event-details1.jpg" alt="Details">
 <h2>Fund collection for cyclone effected people in Australia, fundraising donkey basketball</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
@@ -107,7 +109,7 @@ Charity Society
 <div class="row m-0">
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
- <img src="assets/img/blog/instagram1.jpg" alt="Instagram">
+ <img src="../assets/img/instagram1.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -115,7 +117,7 @@ Charity Society
 </div>
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
-<img src="assets/img/blog/instagram2.jpg" alt="Instagram">
+<img src="../assets/img/instagram2.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -123,7 +125,7 @@ Charity Society
 </div>
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
-<img src="assets/img/blog/instagram3.jpg" alt="Instagram">
+<img src="../assets/img/instagram3.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -131,7 +133,7 @@ Charity Society
 </div>
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
-<img src="assets/img/blog/instagram4.jpg" alt="Instagram">
+<img src="../assets/img/instagram4.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -139,7 +141,7 @@ Charity Society
 </div>
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
-<img src="assets/img/blog/instagram5.jpg" alt="Instagram">
+<img src="../assets/img/instagram5.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -147,7 +149,7 @@ Charity Society
 </div>
 <div class="col-4 col-sm-3 col-lg-4 p-0">
 <div class="instagram-item">
-<img src="assets/img/blog/instagram6.jpg" alt="Instagram">
+<img src="../assets/img/instagram6.jpg" alt="Instagram">
 <a href="#">
 <i class="icofont-instagram"></i>
 </a>
@@ -161,4 +163,6 @@ Charity Society
 </div>
 </div>
 
-
+<?php
+    include_once "footer.inc.php";
+?>

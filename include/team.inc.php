@@ -1,4 +1,6 @@
-
+<?php
+   include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-eleven">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>Team</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>Team</span>
@@ -27,7 +29,7 @@
 <div class="col-sm-6 col-lg-4">
 <div class="team-item">
 <div class="top">
-<img src="assets/img/team/team1.jpg" alt="Team">
+<img src="../assets/img/team1.jpg" alt="Team">
 <ul>
 <li>
 <a href="#" target="_blank">
@@ -64,7 +66,7 @@
 <div class="col-sm-6 col-lg-4" style="float: right;">
     <div class="team-item">
     <div class="top">
-    <img src="assets/img/team/team1.jpg" alt="Team">
+    <img src="../assets/img/team1.jpg" alt="Team">
     <ul>
     <li>
     <a href="#" target="_blank">
@@ -103,7 +105,7 @@
     <div class="col-sm-6 col-lg-4" style="float: right;">
         <div class="team-item">
         <div class="top">
-        <img src="assets/img/team/team1.jpg" alt="Team">
+        <img src="../assets/img/team1.jpg" alt="Team">
         <ul>
         <li>
         <a href="#" target="_blank">
@@ -143,7 +145,7 @@
         <div class="col-sm-6 col-lg-4">
             <div class="team-item">
             <div class="top">
-            <img src="assets/img/team/team1.jpg" alt="Team">
+            <img src="../assets/img/team1.jpg" alt="Team">
             <ul>
             <li>
             <a href="#" target="_blank">
@@ -182,7 +184,7 @@
             <div class="col-sm-6 col-lg-4">
                 <div class="team-item">
                 <div class="top">
-                <img src="assets/img/team/team1.jpg" alt="Team">
+                <img src="../assets/img/team1.jpg" alt="Team">
                 <ul>
                 <li>
                 <a href="#" target="_blank">
@@ -219,7 +221,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="team-item">
                     <div class="top">
-                    <img src="assets/img/team/team1.jpg" alt="Team">
+                    <img src="../assets/img/team1.jpg" alt="Team">
                     <ul>
                     <li>
                     <a href="#" target="_blank">
@@ -280,3 +282,6 @@
 </div>
 </section>
 
+<?php
+   include_once "footer.inc.php";
+?>

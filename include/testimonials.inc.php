@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-ten">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>Testimonials</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>Testimonials</span>
@@ -26,7 +28,7 @@
 <div class="row align-items-center">
 <div class="col-lg-6">
 <div class="testimonial-img">
-<img src="assets/img/testimonial/testimonial1.jpg" alt="Testimonial">
+<img src="../assets/img/testimonial1.jpg" alt="Testimonial">
 <h3>Jac Jacson</h3>
 <span>CEO & Abanda</span>
 </div>
@@ -58,7 +60,7 @@
 <div class="row align-items-center">
 <div class="col-lg-6">
 <div class="testimonial-img">
-<img src="assets/img/testimonial/testimonial2.jpg" alt="Testimonial">
+<img src="../assets/img/testimonial2.jpg" alt="Testimonial">
 <h3>Tom Henry</h3>
 <span>Manager</span>
 </div>
@@ -90,7 +92,7 @@
 <div class="row align-items-center">
 <div class="col-lg-6">
 <div class="testimonial-img">
-<img src="assets/img/testimonial/testimonial3.jpg" alt="Testimonial">
+<img src="../assets/img/testimonial3.jpg" alt="Testimonial">
 <h3>Micheal Shon</h3>
 <span>Director</span>
 </div>
@@ -142,3 +144,6 @@
 </section>
 
 
+<?php
+    include_once "footer.inc.php";
+?>

@@ -145,47 +145,47 @@
 <a href="#" class="nav-link dropdown-toggle">Volunteer<i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="include/sign-in.inc.php" class="nav-link">Sign In</a>
+<a href="sign-in.inc.php" class="nav-link">Sign In</a>
 </li>
 <li class="nav-item">
-<a href="include/sign-up.inc.php" class="nav-link">Sign Up</a>
+<a href="sign-up.inc.php" class="nav-link">Sign Up</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="include/gallery.inc.php" class="nav-link">Gallery</a>
+<a href="gallery.inc.php" class="nav-link">Gallery</a>
 </li>
 <li class="nav-item">
-<a href="include/testimonials.inc.php" class="nav-link">Testimonials</a>
+<a href="testimonials.inc.php" class="nav-link">Testimonials</a>
 </li>
 <li class="nav-item">
-<a href="include/team.inc.php" class="nav-link">Team</a>
+<a href="team.inc.php" class="nav-link">Team</a>
 </li>
 <li class="nav-item">
-<a href="include/faq.inc.php" class="nav-link">FAQ</a>
+<a href="faq.inc.php" class="nav-link">FAQ</a>
 </li>
 <li class="nav-item">
-<a href="include/coming-soon.inc.php" class="nav-link">Coming Soon</a>
+<a href="coming-soon.inc.php" class="nav-link">Coming Soon</a>
 </li>
 <li class="nav-item">
-<a href="include/privacy-policy.inc.php" class="nav-link">Privacy Policy</a>
+<a href="privacy-policy.inc.php" class="nav-link">Privacy Policy</a>
 </li>
 <li class="nav-item">
-<a href="include/terms-conditions.inc.php" class="nav-link">Terms & Conditions</a>
+<a href="terms-conditions.inc.php" class="nav-link">Terms & Conditions</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="include/about.inc.php" class="nav-link">About</a>
+<a href="about.inc.php" class="nav-link">About</a>
 </li>
 <li class="nav-item">
 <a href="#" class="nav-link dropdown-toggle">Donations <i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="include/donations.inc.php" class="nav-link">Donations</a>
+<a href="donations.inc.php" class="nav-link">Donations</a>
 </li>
 <li class="nav-item">
-<a href="include/donation-details.inc.php" class="nav-link">Donation Details</a>
+<a href="donation-details.inc.php" class="nav-link">Donation Details</a>
 </li>
 </ul>
 </li>
@@ -193,10 +193,10 @@
 <a href="#" class="nav-link dropdown-toggle">Events <i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="include/events.inc.php" class="nav-link">Events</a>
+<a href="events.inc.php" class="nav-link">Events</a>
 </li>
 <li class="nav-item">
-<a href="include/event-details.inc.php" class="nav-link">Event Details</a>
+<a href="event-details.inc.php" class="nav-link">Event Details</a>
 </li>
 </ul>
 </li>
@@ -204,15 +204,15 @@
 <a href="#" class="nav-link dropdown-toggle">Blog <i class="icofont-simple-down"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="include/blog.inc.php" class="nav-link">Blog</a>
+<a href="blog.inc.php" class="nav-link">Blog</a>
 </li>
 <li class="nav-item">
- <a href="include/blog-details.inc.php" class="nav-link">Blog Details</a>
+ <a href="blog-details.inc.php" class="nav-link">Blog Details</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="include/contact.inc.php" class="nav-link">Contact</a>
+<a href="contact.inc.php" class="nav-link">Contact</a>
 </li>
 </ul>
 <div class="side-nav">

@@ -1,4 +1,6 @@
-
+<?php
+    include_once "header.inc.php";
+?>
 
 <div class="page-title-area title-bg-eight">
 <div class="d-table">
@@ -8,7 +10,7 @@
 <h2>Contact</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="index.php">Home</a>
 </li>
 <li>
 <span>Contact</span>
@@ -117,3 +119,6 @@ Send Message
 </div>
 
 
+<?php
+    include_once "footer.inc.php";
+?>
